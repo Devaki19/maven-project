@@ -19,7 +19,7 @@ public class testbase {
  public void login()
  {
 	  drive.findElement(By.id("email")).sendKeys("Sujikutty.kutty24@gmail.com");
-	  drive.findElement(By.id("pass")).sendKeys("74013pandi");
+	  drive.findElement(By.id("pass")).sendKeys("123456");
 	  drive.findElement(By.id("u_0_b")).click();
 	  }
 }
